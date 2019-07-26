@@ -1,0 +1,931 @@
+
+<!doctype html>
+<html lang="en">
+    <head >
+        <script>
+    var require = {
+        "baseUrl": "http://34.66.88.119/pub/static/version1564059228/frontend/Magento/luma/en_US"
+    };
+</script>
+        <meta charset="utf-8"/>
+<meta name="keywords" content="ELITE DUOS"/>
+<meta name="robots" content="INDEX,FOLLOW"/>
+<meta name="title" content="Sarees"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+<title>Sarees</title>
+<link  rel="stylesheet" type="text/css"  media="all" href="http://34.66.88.119/pub/static/version1564059228/frontend/Magento/luma/en_US/mage/calendar.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="http://34.66.88.119/pub/static/version1564059228/frontend/Magento/luma/en_US/css/styles-m.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="http://34.66.88.119/pub/static/version1564059228/frontend/Magento/luma/en_US/Magento_Swatches/css/swatches.css" />
+<link  rel="stylesheet" type="text/css"  media="screen and (min-width: 768px)" href="http://34.66.88.119/pub/static/version1564059228/frontend/Magento/luma/en_US/css/styles-l.css" />
+<link  rel="stylesheet" type="text/css"  media="print" href="http://34.66.88.119/pub/static/version1564059228/frontend/Magento/luma/en_US/css/print.css" />
+<script  type="text/javascript"  src="http://34.66.88.119/pub/static/version1564059228/frontend/Magento/luma/en_US/requirejs/require.js"></script>
+<script  type="text/javascript"  src="http://34.66.88.119/pub/static/version1564059228/frontend/Magento/luma/en_US/mage/requirejs/mixins.js"></script>
+<script  type="text/javascript"  src="http://34.66.88.119/pub/static/version1564059228/_requirejs/frontend/Magento/luma/en_US/requirejs-config.js"></script>
+<link  rel="icon" type="image/x-icon" href="http://34.66.88.119/pub/media/favicon/websites/1/elite.png" />
+<link  rel="shortcut icon" type="image/x-icon" href="http://34.66.88.119/pub/media/favicon/websites/1/elite.png" />
+            </head>
+    <body data-container="body" data-mage-init='{"loaderAjax": {}, "loader": { "icon": "http://34.66.88.119/pub/static/version1564059228/frontend/Magento/luma/en_US/images/loader-2.gif"}}' class="page-with-filter page-products categorypath-sarees category-sarees catalog-category-view page-layout-2columns-left">
+        
+<script>
+    try {
+        if (!window.localStorage || !window.sessionStorage) {
+            throw new Error();
+        }
+
+        localStorage.setItem('storage_test', 1);
+        localStorage.removeItem('storage_test');
+    } catch(e) {
+        (function () {
+            var Storage = function (type) {
+                    var data;
+
+                    function createCookie(name, value, days) {
+                        var date, expires;
+
+                        if (days) {
+                            date = new Date();
+                            date.setTime(date.getTime()+(days * 24 * 60 * 60 * 1000));
+                            expires = '; expires=' + date.toGMTString();
+                        } else {
+                            expires = '';
+                        }
+                        document.cookie = name + '=' + value+expires+'; path=/';
+                    }
+
+                    function readCookie(name) {
+                        var nameEQ = name + '=',
+                            ca = document.cookie.split(';'),
+                            i = 0,
+                            c;
+
+                        for (i=0; i < ca.length; i++) {
+                            c = ca[i];
+
+                            while (c.charAt(0) === ' ') {
+                                c = c.substring(1,c.length);
+                            }
+
+                            if (c.indexOf(nameEQ) === 0) {
+                                return c.substring(nameEQ.length, c.length);
+                            }
+                        }
+
+                        return null;
+                    }
+
+                    function setData(data) {
+                        data = encodeURIComponent(JSON.stringify(data));
+                        createCookie(type === 'session' ? getSessionName() : 'localStorage', data, 365);
+                    }
+
+                    function clearData() {
+                        createCookie(type === 'session' ? getSessionName() : 'localStorage', '', 365);
+                    }
+
+                    function getData() {
+                        var data = type === 'session' ? readCookie(getSessionName()) : readCookie('localStorage');
+
+                        return data ? JSON.parse(decodeURIComponent(data)) : {};
+                    }
+
+                    function getSessionName() {
+                        if (!window.name) {
+                            window.name = new Date().getTime();
+                        }
+
+                        return 'sessionStorage' + window.name;
+                    }
+
+                    data = getData();
+
+                    return {
+                        length: 0,
+                        clear: function () {
+                            data = {};
+                            this.length = 0;
+                            clearData();
+                        },
+
+                        getItem: function (key) {
+                            return data[key] === undefined ? null : data[key];
+                        },
+
+                        key: function (i) {
+                            var ctr = 0,
+                                k;
+
+                            for (k in data) {
+                                if (ctr.toString() === i.toString()) {
+                                    return k;
+                                } else {
+                                    ctr++
+                                }
+                            }
+
+                            return null;
+                        },
+
+                        removeItem: function (key) {
+                            delete data[key];
+                            this.length--;
+                            setData(data);
+                        },
+
+                        setItem: function (key, value) {
+                            data[key] = value.toString();
+                            this.length++;
+                            setData(data);
+                        }
+                    };
+                };
+
+            window.localStorage.__proto__ = window.localStorage = new Storage('local');
+            window.sessionStorage.__proto__ = window.sessionStorag = new Storage('session');
+        })();
+    }
+</script>    <script>
+        require.config({
+            deps: [
+                'jquery',
+                'mage/translate',
+                'jquery/jquery-storageapi'
+            ],
+            callback: function ($) {
+                'use strict';
+
+                var dependencies = [],
+                    versionObj;
+
+                $.initNamespaceStorage('mage-translation-storage');
+                $.initNamespaceStorage('mage-translation-file-version');
+                versionObj = $.localStorage.get('mage-translation-file-version');
+
+                if (versionObj.version !== 'f416b73fd9559ed6de22fd73e3135d9715893401') {
+                    dependencies.push(
+                        'text!js-translation.json'
+                    );
+
+                }
+
+                require.config({
+                    deps: dependencies,
+                    callback: function (string) {
+                        if (typeof string === 'string') {
+                            $.mage.translate.add(JSON.parse(string));
+                            $.localStorage.set('mage-translation-storage', string);
+                            $.localStorage.set(
+                                'mage-translation-file-version',
+                                {
+                                    version: 'f416b73fd9559ed6de22fd73e3135d9715893401'
+                                }
+                            );
+                        } else {
+                            $.mage.translate.add($.localStorage.get('mage-translation-storage'));
+                        }
+                    }
+                });
+            }
+        });
+    </script>
+
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "mage/cookies": {
+                "expires": null,
+                "path": "/",
+                "domain": "34.66.88.119",
+                "secure": false,
+                "lifetime": "3600"
+            }
+        }
+    }
+</script>
+    <noscript>
+        <div class="message global noscript">
+            <div class="content">
+                <p>
+                    <strong>JavaScript seems to be disabled in your browser.</strong>
+                    <span>For the best experience on our site, be sure to turn on Javascript in your browser.</span>
+                </p>
+            </div>
+        </div>
+    </noscript>
+<div class="page-wrapper"><header class="page-header"><div class="panel wrapper"><div class="panel header"><a class="action skip contentarea" href="#contentarea"><span>Skip to Content</span></a>
+
+<ul class="header links">        <li class="greet welcome" data-bind="scope: 'customer'">
+            <!-- ko if: customer().fullname  -->
+            <span data-bind="text: new String('Welcome, %1!').replace('%1', customer().firstname)">
+            </span>
+            <!-- /ko -->
+            <!-- ko ifnot: customer().fullname  -->
+            <span data-bind="html:'WELCOME TO ELITE DUOS'"></span>
+            <!-- /ko -->
+        </li>
+        <script type="text/x-magento-init">
+        {
+            "*": {
+                "Magento_Ui/js/core/app": {
+                    "components": {
+                        "customer": {
+                            "component": "Magento_Customer/js/view/customer"
+                        }
+                    }
+                }
+            }
+        }
+        </script>
+        <li class="customer-welcome">
+        <span class="customer-name"
+              role="link"
+              tabindex="0"
+              data-mage-init='{"dropdown":{}}'
+              data-toggle="dropdown"
+              data-trigger-keypress-button="true"
+              data-bind="scope: 'customer'">
+            <span data-bind="text: customer().fullname"></span>
+            <button type="button"
+                    class="action switch"
+                    tabindex="-1"
+                    data-action="customer-menu-toggle">
+                <span>Change</span>
+            </button>
+        </span>
+        <script type="text/x-magento-init">
+        {
+            "*": {
+                "Magento_Ui/js/core/app": {
+                    "components": {
+                        "customer": {
+                            "component": "Magento_Customer/js/view/customer"
+                        }
+                    }
+                }
+            }
+        }
+        </script>
+                <div class="customer-menu" data-target="dropdown">
+            <ul class="header links"><li><a href="http://34.66.88.119/index.php/customer/account/" >My Account</a></li><li class="link wishlist" data-bind="scope: 'wishlist'">
+    <a href="http://34.66.88.119/index.php/wishlist/">My Wish List        <!-- ko if: wishlist().counter -->
+        <span data-bind="text: wishlist().counter" class="counter qty"></span>
+        <!-- /ko -->
+    </a>
+</li>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "wishlist": {
+                        "component": "Magento_Wishlist/js/view/wishlist"
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+<li class="authorization-link" data-label="or">
+    <a href="http://34.66.88.119/index.php/customer/account/logout/" data-post='{"action":"http:\/\/34.66.88.119\/index.php\/customer\/account\/logout\/","data":{"uenc":"aHR0cDovLzM0LjY2Ljg4LjExOS9pbmRleC5waHAvc2FyZWVzLmh0bWw,"}}'>
+        Sign Out    </a>
+</li>
+</ul>        </div>
+            </li>
+<li class="authorization-link" data-label="or">
+    <a href="http://34.66.88.119/index.php/customer/account/logout/" data-post='{"action":"http:\/\/34.66.88.119\/index.php\/customer\/account\/logout\/","data":{"uenc":"aHR0cDovLzM0LjY2Ljg4LjExOS9pbmRleC5waHAvc2FyZWVzLmh0bWw,"}}'>
+        Sign Out    </a>
+</li>
+</ul></div></div><div class="header content"><span data-action="toggle-nav" class="action nav-toggle"><span>Toggle Nav</span></span>
+    <a class="logo" href="http://34.66.88.119/index.php/" title="ELITE DUOS">
+        <img src="http://34.66.88.119/pub/media/logo/websites/1/elite.png"
+             alt="ELITE DUOS"
+             width="148"             height="43"        />
+    </a>
+
+<div data-block="minicart" class="minicart-wrapper">
+    <a class="action showcart" href="http://34.66.88.119/index.php/checkout/cart/"
+       data-bind="scope: 'minicart_content'">
+        <span class="text">My Cart</span>
+        <span class="counter qty empty"
+              data-bind="css: { empty: !!getCartParam('summary_count') == false }, blockLoader: isLoading">
+            <span class="counter-number"><!-- ko text: getCartParam('summary_count') --><!-- /ko --></span>
+            <span class="counter-label">
+            <!-- ko if: getCartParam('summary_count') -->
+                <!-- ko text: getCartParam('summary_count') --><!-- /ko -->
+                <!-- ko i18n: 'items' --><!-- /ko -->
+            <!-- /ko -->
+            </span>
+        </span>
+    </a>
+            <div class="block block-minicart"
+             data-role="dropdownDialog"
+             data-mage-init='{"dropdownDialog":{
+                "appendTo":"[data-block=minicart]",
+                "triggerTarget":".showcart",
+                "timeout": "2000",
+                "closeOnMouseLeave": false,
+                "closeOnEscape": true,
+                "triggerClass":"active",
+                "parentClass":"active",
+                "buttons":[]}}'>
+            <div id="minicart-content-wrapper" data-bind="scope: 'minicart_content'">
+                <!-- ko template: getTemplate() --><!-- /ko -->
+            </div>
+                    </div>
+        <script>
+        window.checkout = {"shoppingCartUrl":"http:\/\/34.66.88.119\/index.php\/checkout\/cart\/","checkoutUrl":"http:\/\/34.66.88.119\/index.php\/checkout\/","updateItemQtyUrl":"http:\/\/34.66.88.119\/index.php\/checkout\/sidebar\/updateItemQty\/","removeItemUrl":"http:\/\/34.66.88.119\/index.php\/checkout\/sidebar\/removeItem\/","imageTemplate":"Magento_Catalog\/product\/image_with_borders","baseUrl":"http:\/\/34.66.88.119\/index.php\/","minicartMaxItemsVisible":5,"websiteId":"1","maxItemsToDisplay":10,"customerLoginUrl":"http:\/\/34.66.88.119\/index.php\/customer\/account\/login\/","isRedirectRequired":false,"autocomplete":"off","captcha":{"user_login":{"isCaseSensitive":false,"imageHeight":50,"imageSrc":"","refreshUrl":"http:\/\/34.66.88.119\/index.php\/captcha\/refresh\/","isRequired":false},"guest_checkout":{"isCaseSensitive":false,"imageHeight":50,"imageSrc":"","refreshUrl":"http:\/\/34.66.88.119\/index.php\/captcha\/refresh\/","isRequired":false}}};
+    </script>
+    <script type="text/x-magento-init">
+    {
+        "[data-block='minicart']": {
+            "Magento_Ui/js/core/app": {"components":{"minicart_content":{"children":{"subtotal.container":{"children":{"subtotal":{"children":{"subtotal.totals":{"config":{"display_cart_subtotal_incl_tax":0,"display_cart_subtotal_excl_tax":1,"template":"Magento_Tax\/checkout\/minicart\/subtotal\/totals"},"children":{"subtotal.totals.msrp":{"component":"Magento_Msrp\/js\/view\/checkout\/minicart\/subtotal\/totals","config":{"displayArea":"minicart-subtotal-hidden","template":"Magento_Msrp\/checkout\/minicart\/subtotal\/totals"}}},"component":"Magento_Tax\/js\/view\/checkout\/minicart\/subtotal\/totals"}},"component":"uiComponent","config":{"template":"Magento_Checkout\/minicart\/subtotal"}}},"component":"uiComponent","config":{"displayArea":"subtotalContainer"}},"item.renderer":{"component":"uiComponent","config":{"displayArea":"defaultRenderer","template":"Magento_Checkout\/minicart\/item\/default"},"children":{"item.image":{"component":"Magento_Catalog\/js\/view\/image","config":{"template":"Magento_Catalog\/product\/image","displayArea":"itemImage"}},"checkout.cart.item.price.sidebar":{"component":"uiComponent","config":{"template":"Magento_Checkout\/minicart\/item\/price","displayArea":"priceSidebar"}}}},"extra_info":{"component":"uiComponent","config":{"displayArea":"extraInfo"}},"promotion":{"component":"uiComponent","config":{"displayArea":"promotion"}}},"config":{"itemRenderer":{"default":"defaultRenderer","simple":"defaultRenderer","virtual":"defaultRenderer"},"template":"Magento_Checkout\/minicart\/content"},"component":"Magento_Checkout\/js\/view\/minicart"}},"types":[]}        },
+        "*": {
+            "Magento_Ui/js/block-loader": "http://34.66.88.119/pub/static/version1564059228/frontend/Magento/luma/en_US/images/loader-1.gif"
+        }
+    }
+    </script>
+</div>
+
+
+<div class="block block-search">
+    <div class="block block-title"><strong>Search</strong></div>
+    <div class="block block-content">
+        <form class="form minisearch" id="search_mini_form" action="http://34.66.88.119/index.php/catalogsearch/result/" method="get">
+            <div class="field search">
+                <label class="label" for="search" data-role="minisearch-label">
+                    <span>Search</span>
+                </label>
+                <div class="control">
+                    <input id="search"
+                           data-mage-init='{"quickSearch":{
+                                "formSelector":"#search_mini_form",
+                                "url":"http://34.66.88.119/index.php/search/ajax/suggest/",
+                                "destinationSelector":"#search_autocomplete"}
+                           }'
+                           type="text"
+                           name="q"
+                           value=""
+                           placeholder="Search entire store here..."
+                           class="input-text"
+                           maxlength="128"
+                           role="combobox"
+                           aria-haspopup="false"
+                           aria-autocomplete="both"
+                           autocomplete="off"/>
+                    <div id="search_autocomplete" class="search-autocomplete"></div>
+                    <div class="nested">
+    <a class="action advanced" href="http://34.66.88.119/index.php/catalogsearch/advanced/" data-action="advanced-search">
+        Advanced Search    </a>
+</div>
+                </div>
+            </div>
+            <div class="actions">
+                <button type="submit"
+                        title="Search"
+                        class="action search">
+                    <span>Search</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+<ul class="compare wrapper"><li class="item link compare" data-bind="scope: 'compareProducts'" data-role="compare-products-link">
+    <a class="action compare no-display" title="Compare Products"
+       data-bind="attr: {'href': compareProducts().listUrl}, css: {'no-display': !compareProducts().count}"
+    >
+        Compare Products        <span class="counter qty" data-bind="text: compareProducts().countCaption"></span>
+    </a>
+</li>
+<script type="text/x-magento-init">
+{"[data-role=compare-products-link]": {"Magento_Ui/js/core/app": {"components":{"compareProducts":{"component":"Magento_Catalog\/js\/view\/compare-products"}}}}}
+</script>
+</ul></div></header>    <div class="sections nav-sections">
+                <div class="section-items nav-sections-items" data-mage-init='{"tabs":{"openedState":"active"}}'>
+                                            <div class="section-item-title nav-sections-item-title" data-role="collapsible">
+                    <a class="nav-sections-item-switch" data-toggle="switch" href="#store.menu">Menu</a>
+                </div>
+                <div class="section-item-content nav-sections-item-content" id="store.menu" data-role="content">
+<nav class="navigation" data-action="navigation">
+    <ul data-mage-init='{"menu":{"responsive":true, "expanded":true, "position":{"my":"left top","at":"left bottom"}}}'>
+        <li  class="level0 nav-1 first level-top"><a href="http://34.66.88.119/index.php/chudidar.html"  class="level-top" ><span>Chudidar</span></a></li><li  class="level0 nav-2 active level-top"><a href="http://34.66.88.119/index.php/sarees.html"  class="level-top" ><span>Sarees</span></a></li><li  class="level0 nav-3 level-top"><a href="http://34.66.88.119/index.php/formals.html"  class="level-top" ><span>Formals</span></a></li><li  class="level0 nav-4 level-top"><a href="http://34.66.88.119/index.php/jewels.html"  class="level-top" ><span>Jewels</span></a></li><li  class="level0 nav-5 last level-top"><a href="http://34.66.88.119/index.php/shoes.html"  class="level-top" ><span>Shoes</span></a></li>            </ul>
+</nav>
+</div>
+                                            <div class="section-item-title nav-sections-item-title" data-role="collapsible">
+                    <a class="nav-sections-item-switch" data-toggle="switch" href="#store.links">Account</a>
+                </div>
+                <div class="section-item-content nav-sections-item-content" id="store.links" data-role="content"><!-- Account links --></div>
+                                    </div>
+    </div>
+<div class="breadcrumbs">
+    <ul class="items">
+                    <li class="item home">
+                            <a href="http://34.66.88.119/index.php/" title="Go to Home Page">
+                    Home                </a>
+                        </li>
+                    <li class="item category7">
+                            <strong>Sarees</strong>
+                        </li>
+            </ul>
+</div>
+<main id="maincontent" class="page-main"><a id="contentarea" tabindex="-1"></a>
+<div class="page-title-wrapper">
+    <h1 class="page-title"
+         id="page-title-heading"                     aria-labelledby="page-title-heading toolbar-amount"
+        >
+        <span class="base" data-ui-id="page-title-wrapper" >Sarees</span>    </h1>
+    </div>
+<div class="page messages"><div data-placeholder="messages"></div>
+<div data-bind="scope: 'messages'">
+    <div data-bind="foreach: { data: cookieMessages, as: 'message' }" class="messages">
+        <div data-bind="attr: {
+            class: 'message-' + message.type + ' ' + message.type + ' message',
+            'data-ui-id': 'message-' + message.type
+        }">
+            <div data-bind="html: message.text"></div>
+        </div>
+    </div>
+    <div data-bind="foreach: { data: messages().messages, as: 'message' }" class="messages">
+        <div data-bind="attr: {
+            class: 'message-' + message.type + ' ' + message.type + ' message',
+            'data-ui-id': 'message-' + message.type
+        }">
+            <div data-bind="html: message.text"></div>
+        </div>
+    </div>
+</div>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                        "messages": {
+                            "component": "Magento_Theme/js/view/messages"
+                        }
+                    }
+                }
+            }
+    }
+</script>
+</div><div class="columns"><div class="column main"><input name="form_key" type="hidden" value="eGRKEy94azSSdi5i" /><div id="authenticationPopup" data-bind="scope:'authenticationPopup'" style="display: none;">
+    <script>
+        window.authenticationPopup = {"autocomplete":"off","customerRegisterUrl":"http:\/\/34.66.88.119\/index.php\/customer\/account\/create\/","customerForgotPasswordUrl":"http:\/\/34.66.88.119\/index.php\/customer\/account\/forgotpassword\/","baseUrl":"http:\/\/34.66.88.119\/index.php\/"};
+    </script>
+    <!-- ko template: getTemplate() --><!-- /ko -->
+    <script type="text/x-magento-init">
+        {
+            "#authenticationPopup": {
+                "Magento_Ui/js/core/app": {"components":{"authenticationPopup":{"component":"Magento_Customer\/js\/view\/authentication-popup","children":{"messages":{"component":"Magento_Ui\/js\/view\/messages","displayArea":"messages"},"captcha":{"component":"Magento_Captcha\/js\/view\/checkout\/loginCaptcha","displayArea":"additional-login-form-fields","formId":"user_login","configSource":"checkout"}}}}}            },
+            "*": {
+                "Magento_Ui/js/block-loader": "http\u003A\u002F\u002F34.66.88.119\u002Fpub\u002Fstatic\u002Fversion1564059228\u002Ffrontend\u002FMagento\u002Fluma\u002Fen_US\u002Fimages\u002Floader\u002D1.gif"
+            }
+        }
+    </script>
+</div>
+<script type="text/x-magento-init">
+{"*":{"Magento_Customer\/js\/section-config":{"sections":{"stores\/store\/switch":"*","directory\/currency\/switch":"*","*":["messages"],"customer\/account\/logout":"*","customer\/account\/loginpost":"*","customer\/account\/createpost":"*","customer\/ajax\/login":["checkout-data","cart"],"catalog\/product_compare\/add":["compare-products"],"catalog\/product_compare\/remove":["compare-products"],"catalog\/product_compare\/clear":["compare-products"],"sales\/guest\/reorder":["cart"],"sales\/order\/reorder":["cart"],"checkout\/cart\/add":["cart"],"checkout\/cart\/delete":["cart"],"checkout\/cart\/updatepost":["cart"],"checkout\/cart\/updateitemoptions":["cart"],"checkout\/cart\/couponpost":["cart"],"checkout\/cart\/estimatepost":["cart"],"checkout\/cart\/estimateupdatepost":["cart"],"checkout\/onepage\/saveorder":["cart","checkout-data","last-ordered-items"],"checkout\/sidebar\/removeitem":["cart"],"checkout\/sidebar\/updateitemqty":["cart"],"rest\/*\/v1\/carts\/*\/payment-information":["cart","checkout-data","last-ordered-items"],"rest\/*\/v1\/guest-carts\/*\/payment-information":["cart","checkout-data"],"rest\/*\/v1\/guest-carts\/*\/selected-payment-method":["cart","checkout-data"],"rest\/*\/v1\/carts\/*\/selected-payment-method":["cart","checkout-data"],"multishipping\/checkout\/overviewpost":["cart"],"authorizenet\/directpost_payment\/place":["cart","checkout-data"],"review\/product\/post":["review"],"paypal\/express\/placeorder":["cart","checkout-data"],"paypal\/payflowexpress\/placeorder":["cart","checkout-data"],"braintree\/paypal\/placeorder":["cart","checkout-data"],"wishlist\/index\/add":["wishlist"],"wishlist\/index\/remove":["wishlist"],"wishlist\/index\/updateitemoptions":["wishlist"],"wishlist\/index\/update":["wishlist"],"wishlist\/index\/cart":["wishlist","cart"],"wishlist\/index\/fromcart":["wishlist","cart"],"wishlist\/index\/allcart":["wishlist","cart"],"wishlist\/shared\/allcart":["wishlist","cart"],"wishlist\/shared\/cart":["cart"]},"clientSideSections":["checkout-data"],"baseUrls":["http:\/\/34.66.88.119\/index.php\/"]}}}</script>
+<script type="text/x-magento-init">
+{"*":{"Magento_Customer\/js\/customer-data":{"sectionLoadUrl":"http:\/\/34.66.88.119\/index.php\/customer\/section\/load\/","cookieLifeTime":"3600","updateSessionUrl":"http:\/\/34.66.88.119\/index.php\/customer\/account\/updateSession\/"}}}</script>
+<script type="text/x-magento-init">
+{"*":{"Magento_Customer\/js\/invalidation-processor":{"invalidationRules":{"website-rule":{"Magento_Customer\/js\/invalidation-rules\/website-rule":{"scopeConfig":{"websiteId":1}}}}}}}</script>
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "pageCache": {"url":"http:\/\/34.66.88.119\/index.php\/page_cache\/block\/render\/id\/7\/","handles":["default","catalog_category_view","catalog_category_view_type_layered","catalog_category_view_type_layered_without_children","catalog_category_view_id_7"],"originalRequest":{"route":"catalog","controller":"category","action":"view","uri":"\/index.php\/sarees.html"},"versionCookieName":"private_content_version"}        }
+    }
+</script>
+            <div class="toolbar toolbar-products" data-mage-init='{"productListToolbarForm":{"mode":"product_list_mode","direction":"product_list_dir","order":"product_list_order","limit":"product_list_limit","modeDefault":"grid","directionDefault":"asc","orderDefault":"position","limitDefault":"9","url":"http:\/\/34.66.88.119\/index.php\/sarees.html"}}'>
+                    <div class="modes">
+            <strong class="modes-label" id="modes-label">View as</strong>
+                        <strong title="Grid"
+                class="modes-mode active mode-grid"
+                data-value="grid">
+                <span>Grid</span>
+            </strong>
+                                    <a class="modes-mode mode-list"
+               title="List"
+               href="#"
+               data-role="mode-switcher"
+               data-value="list"
+               id="mode-list"
+               aria-labelledby="modes-label mode-list">
+                <span>List</span>
+            </a>
+                        </div>
+        
+        <p class="toolbar-amount" id="toolbar-amount">
+            <span class="toolbar-number">1</span> Item    </p>
+
+        
+    
+        
+        
+    
+    
+
+        <div class="field limiter">
+    <label class="label" for="limiter">
+        <span>Show</span>
+    </label>
+    <div class="control">
+        <select id="limiter" data-role="limiter" class="limiter-options">
+                            <option value="9"                    selected="selected">
+                    9                </option>
+                            <option value="15">
+                    15                </option>
+                            <option value="30">
+                    30                </option>
+                    </select>
+    </div>
+    <span class="limiter-text">per page</span>
+</div>
+
+                    <div class="toolbar-sorter sorter">
+    <label class="sorter-label" for="sorter">Sort By</label>
+    <select id="sorter" data-role="sorter" class="sorter-options">
+                    <option value="position"
+                                    selected="selected"
+                                >
+                Position            </option>
+                    <option value="name"
+                                >
+                Product Name            </option>
+                    <option value="price"
+                                >
+                Price            </option>
+            </select>
+            <a title="Set Descending Direction" href="#" class="action sorter-action sort-asc" data-role="direction-switcher" data-value="desc">
+            <span>Set Descending Direction</span>
+        </a>
+    </div>
+            </div>
+    <script type="text/x-magento-init">
+    {
+        "body": {
+            "addToWishlist": {"productType":["simple"]}        }
+    }
+</script>
+        <div class="products wrapper grid products-grid">
+                <ol class="products list items product-items">
+                                        <li class="item product product-item">                <div class="product-item-info" data-container="product-grid">
+                                                            <a href="http://34.66.88.119/index.php/benaras-saree.html" class="product photo product-item-photo" tabindex="-1">
+                        
+<span class="product-image-container"
+      style="width:240px;">
+    <span class="product-image-wrapper"
+          style="padding-bottom: 125%;">
+        <img class="product-image-photo"
+                          src="http://34.66.88.119/pub/media/catalog/product/cache/small_image/240x300/beff4985b56e3afdbeabfc89641a4582/i/m/image17.jpeg"
+             width="240"
+             height="300"
+             alt="benaras saree"/></span>
+</span>
+                    </a>
+                    <div class="product details product-item-details">
+                                                <strong class="product name product-item-name">
+                            <a class="product-item-link"
+                               href="http://34.66.88.119/index.php/benaras-saree.html">
+                                benaras saree                            </a>
+                        </strong>
+                                                <div class="price-box price-final_price" data-role="priceBox" data-product-id="6">
+    
+
+<span class="price-container price-final_price tax weee"
+        >
+        <span  id="product-price-6"                data-price-amount="5000"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+        >
+        <span class="price">₹5,000.00</span>    </span>
+        </span>
+
+</div>                        
+                        <div class="product-item-inner">
+                            <div class="product actions product-item-actions">
+                                <div class="actions-primary">
+                                                                                                                    <form data-role="tocart-form"  data-product-sku="benaras saree"
+                                              action="http://34.66.88.119/index.php/checkout/cart/add/uenc/aHR0cDovLzM0LjY2Ljg4LjExOS9pbmRleC5waHAvc2FyZWVzLmh0bWw%2C/product/6/" method="post">
+                                            <input type="hidden" name="product" value="6">
+                                            <input type="hidden" name="uenc" value="aHR0cDovLzM0LjY2Ljg4LjExOS9pbmRleC5waHAvY2hlY2tvdXQvY2FydC9hZGQvdWVuYy9hSFIwY0Rvdkx6TTBMalkyTGpnNExqRXhPUzlwYm1SbGVDNXdhSEF2YzJGeVpXVnpMbWgwYld3JTJDL3Byb2R1Y3QvNi8,">
+                                            <input name="form_key" type="hidden" value="eGRKEy94azSSdi5i" />                                            <button type="submit"
+                                                    title="Add to Cart"
+                                                    class="action tocart primary">
+                                                <span>Add to Cart</span>
+                                            </button>
+                                        </form>
+                                                                    </div>
+                                <div data-role="add-to-links" class="actions-secondary">
+                                                                                <a href="#"
+       class="action towishlist"
+       title="Add to Wish List"
+       aria-label="Add to Wish List"
+       data-post='{"action":"http:\/\/34.66.88.119\/index.php\/wishlist\/index\/add\/","data":{"product":"6","uenc":"aHR0cDovLzM0LjY2Ljg4LjExOS9pbmRleC5waHAvc2FyZWVzLmh0bWw,"}}'
+       data-action="add-to-wishlist"
+       role="button">
+        <span>Add to Wish List</span>
+    </a>
+<a href="#"
+   class="action tocompare"
+   title="Add to Compare"
+   aria-label="Add to Compare"
+   data-post='{"action":"http:\/\/34.66.88.119\/index.php\/catalog\/product_compare\/add\/","data":{"product":"6","uenc":"aHR0cDovLzM0LjY2Ljg4LjExOS9pbmRleC5waHAvc2FyZWVzLmh0bWw,"}}'
+   role="button">
+    <span>Add to Compare</span>
+</a>
+                                                                    </div>
+                            </div>
+                                                    </div>
+                    </div>
+                </div>
+                </li>                    </ol>
+    </div>
+        <div class="toolbar toolbar-products" data-mage-init='{"productListToolbarForm":{"mode":"product_list_mode","direction":"product_list_dir","order":"product_list_order","limit":"product_list_limit","modeDefault":"grid","directionDefault":"asc","orderDefault":"position","limitDefault":"9","url":"http:\/\/34.66.88.119\/index.php\/sarees.html"}}'>
+                    <div class="modes">
+            <strong class="modes-label" id="modes-label">View as</strong>
+                        <strong title="Grid"
+                class="modes-mode active mode-grid"
+                data-value="grid">
+                <span>Grid</span>
+            </strong>
+                                    <a class="modes-mode mode-list"
+               title="List"
+               href="#"
+               data-role="mode-switcher"
+               data-value="list"
+               id="mode-list"
+               aria-labelledby="modes-label mode-list">
+                <span>List</span>
+            </a>
+                        </div>
+        
+        <p class="toolbar-amount" id="toolbar-amount">
+            <span class="toolbar-number">1</span> Item    </p>
+
+        
+    
+        
+        
+    
+    
+
+        <div class="field limiter">
+    <label class="label" for="limiter">
+        <span>Show</span>
+    </label>
+    <div class="control">
+        <select id="limiter" data-role="limiter" class="limiter-options">
+                            <option value="9"                    selected="selected">
+                    9                </option>
+                            <option value="15">
+                    15                </option>
+                            <option value="30">
+                    30                </option>
+                    </select>
+    </div>
+    <span class="limiter-text">per page</span>
+</div>
+
+                    <div class="toolbar-sorter sorter">
+    <label class="sorter-label" for="sorter">Sort By</label>
+    <select id="sorter" data-role="sorter" class="sorter-options">
+                    <option value="position"
+                                    selected="selected"
+                                >
+                Position            </option>
+                    <option value="name"
+                                >
+                Product Name            </option>
+                    <option value="price"
+                                >
+                Price            </option>
+            </select>
+            <a title="Set Descending Direction" href="#" class="action sorter-action sort-asc" data-role="direction-switcher" data-value="desc">
+            <span>Set Descending Direction</span>
+        </a>
+    </div>
+            </div>
+            <script type="text/x-magento-init">
+        {
+            "[data-role=tocart-form], .form.map.checkout": {
+                "catalogAddToCart": {
+                    "product_sku": "benaras saree"
+                }
+            }
+        }
+        </script>
+    <script type="text/x-magento-init">
+    {
+        "body": {
+            "requireCookie": {"noCookieUrl":"http:\/\/34.66.88.119\/index.php\/cookie\/index\/noCookies\/","triggers":{"addToWishlistLink":".action.towishlist"}}        }
+    }
+</script>
+</div><div class="sidebar sidebar-main">
+</div><div class="sidebar sidebar-additional"><div class="block block-compare" data-bind="scope: 'compareProducts'" data-role="compare-products-sidebar">
+    <div class="block-title">
+        <strong id="block-compare-heading" role="heading" aria-level="2">Compare Products</strong>
+        <span class="counter qty no-display" data-bind="text: compareProducts().countCaption, css: {'no-display': !compareProducts().count}"></span>
+    </div>
+    <!-- ko if: compareProducts().count -->
+    <div class="block-content no-display" aria-labelledby="block-compare-heading" data-bind="css: {'no-display': !compareProducts().count}">
+        <ol id="compare-items" class="product-items product-items-names" data-bind="foreach: compareProducts().items">
+                <li class="product-item">
+                    <input type="hidden" class="compare-item-id" data-bind="value: id"/>
+                    <strong class="product-item-name">
+                        <a data-bind="attr: {href: product_url}, html: name" class="product-item-link"></a>
+                    </strong>
+                    <a href="#" data-bind="attr: {'data-post': remove_url}" title="Remove This Item" class="action delete">
+                        <span>Remove This Item</span>
+                    </a>
+                </li>
+        </ol>
+        <div class="actions-toolbar">
+            <div class="primary">
+                <a data-bind="attr: {'href': compareProducts().listUrl}" class="action compare primary"><span>Compare</span></a>
+            </div>
+            <div class="secondary">
+                <a id="compare-clear-all" href="#" class="action clear" data-post="{&quot;action&quot;:&quot;http:\/\/34.66.88.119\/index.php\/catalog\/product_compare\/clear\/&quot;,&quot;data&quot;:{&quot;uenc&quot;:&quot;&quot;}}">
+                    <span>Clear All</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- /ko -->
+    <!-- ko ifnot: compareProducts().count -->
+    <div class="empty">You have no items to compare.</div>
+    <!-- /ko -->
+</div>
+<script type="text/x-magento-init">
+{"[data-role=compare-products-sidebar]": {"Magento_Ui/js/core/app": {"components":{"compareProducts":{"component":"Magento_Catalog\/js\/view\/compare-products"}}}}}
+</script>
+<div class="block block-reorder" data-bind="scope: 'lastOrderedItems'">
+    <div class="block-title no-display"
+         data-bind="css: {'no-display': !lastOrderedItems().items || lastOrderedItems().items.length === 0}">
+        <strong id="block-reorder-heading" role="heading" aria-level="2">Recently Ordered</strong>
+    </div>
+    <div class="block-content no-display"
+         data-bind="css: {'no-display': !lastOrderedItems().items || lastOrderedItems().items.length === 0}"
+         aria-labelledby="block-reorder-heading">
+        <form method="post" class="form reorder"
+              action="http://34.66.88.119/index.php/checkout/cart/addgroup/" id="reorder-validate-detail">
+            <strong class="subtitle">Last Ordered Items</strong>
+            <ol id="cart-sidebar-reorder" class="product-items product-items-names"
+                data-bind="foreach: lastOrderedItems().items">
+                <li class="product-item">
+                    <div class="field item choice no-display" data-bind="css: {'no-display': !is_saleable}">
+                        <label class="label" data-bind="attr: {'for': 'reorder-item-' + id}">
+                            <span>Add to Cart</span>
+                        </label>
+                        <div class="control">
+                            <input type="checkbox" name="order_items[]"
+                                   data-bind="attr: {id: 'reorder-item-' + id, value: id}"
+                                   title="Add to Cart"
+                                   class="checkbox" data-validate='{"validate-one-checkbox-required-by-name": true}'/>
+                        </div>
+                    </div>
+                    <strong class="product-item-name">
+                        <a data-bind="attr: {href: url}" class="product-item-link">
+                            <span data-bind="text: name"></span>
+                        </a>
+                    </strong>
+                </li>
+            </ol>
+            <div id="cart-sidebar-reorder-advice-container"></div>
+            <div class="actions-toolbar">
+                <div class="primary no-display"
+                     data-bind="css: {'no-display': !lastOrderedItems().isShowAddToCart}">
+                    <button type="submit" title="Add to Cart" class="action tocart primary">
+                        <span>Add to Cart</span>
+                    </button>
+                </div>
+                <div class="secondary">
+                    <a class="action view" href="http://34.66.88.119/index.php/customer/account/">
+                        <span>View All</span>
+                    </a>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script>
+    require(["jquery", "mage/mage"], function(jQuery){
+        jQuery('#reorder-validate-detail').mage('validation', {
+            errorPlacement: function(error, element) {
+                error.appendTo('#cart-sidebar-reorder-advice-container');
+            }
+        });
+    });
+    </script>
+</div>
+<script type="text/x-magento-init">
+{
+    "*": {
+        "Magento_Ui/js/core/app": {
+            "components": {
+                "lastOrderedItems": {
+                    "component": "Magento_Sales/js/view/last-ordered-items"
+                }
+            }
+        }
+    }
+}
+</script>
+    <div class="block block-wishlist" data-bind="scope: 'wishlist'">
+        <div class="block-title">
+            <strong>My Wish List</strong>
+            <!-- ko if: wishlist().counter -->
+            <span data-bind="text: wishlist().counter" class="counter"></span>
+            <!-- /ko -->
+        </div>
+        <div class="block-content">
+            <strong class="subtitle">Last Added Items</strong>
+            <!-- ko if: wishlist().counter -->
+                <ol class="product-items no-display" id="wishlist-sidebar" data-bind="foreach: wishlist().items, css: {'no-display': null}">
+                    <li class="product-item">
+                        <div class="product-item-info">
+                            <a class="product-item-photo" data-bind="attr: { href: product_url, title: product_name }">
+                                <!-- ko template: {name: $data.image.template, data: $data.image} --><!-- /ko -->
+                            </a>
+                            <div class="product-item-details">
+                                <strong class="product-item-name">
+                                    <a data-bind="attr: { href: product_url }" class="product-item-link">
+                                        <span data-bind="text: product_name"></span>
+                                    </a>
+                                </strong>
+                                <div data-bind="html: product_price"></div>
+                                <div class="product-item-actions">
+                                    <!-- ko if: product_is_saleable_and_visible -->
+                                    <div class="actions-primary">
+                                        <!-- ko if: product_has_required_options -->
+                                        <a href="#" data-bind="attr: {'data-post': add_to_cart_params}" class="action tocart primary"><span>Add to Cart</span></a>
+                                        <!-- /ko -->
+                                        <!-- ko ifnot: product_has_required_options -->
+                                            <button type="button" class="action tocart primary" data-bind="attr: {'data-post': add_to_cart_params}"><span>Add to Cart</span></button>
+                                        <!-- /ko -->
+                                    </div>
+                                    <!-- /ko -->
+                                    <div class="actions-secondary">
+                                        <a href="#"  data-bind="attr: {'data-post': delete_item_params}"
+                                           title="Remove This Item"
+                                           class="btn-remove action delete">
+                                            <span>Remove This Item</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ol>
+                <div class="actions-toolbar no-display" data-bind="css: {'no-display': null}">
+                    <div class="primary">
+                        <a class="action details"
+                           href="http://34.66.88.119/index.php/wishlist/"
+                           title="Go to Wish List"><span>Go to Wish List</span></a>
+                    </div>
+                </div>
+            <!-- /ko -->
+            <!-- ko ifnot: wishlist().counter -->
+                <div class="empty">You have no items in your wish list.</div>
+            <!-- /ko -->
+        </div>
+    </div>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "wishlist": {
+                        "component": "Magento_Wishlist/js/view/wishlist"
+                    }
+                }
+            }
+        }
+    }
+</script>
+</div></div></main><footer class="page-footer"><div class="footer content"><div class="block newsletter">
+    <div class="title"><strong>Newsletter</strong></div>
+    <div class="content">
+        <form class="form subscribe"
+            novalidate
+            action="http://34.66.88.119/index.php/newsletter/subscriber/new/"
+            method="post"
+            data-mage-init='{"validation": {"errorClass": "mage-error"}}'
+            id="newsletter-validate-detail">
+            <div class="field newsletter">
+                <label class="label" for="newsletter"><span>Sign Up for Our Newsletter:</span></label>
+                <div class="control">
+                    <input name="email" type="email" id="newsletter"
+                                placeholder="Enter your email address"
+                                data-validate="{required:true, 'validate-email':true}"/>
+                </div>
+            </div>
+            <div class="actions">
+                <button class="action subscribe primary" title="Subscribe" type="submit">
+                    <span>Subscribe</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+<ul class="footer links"><li class="nav item"><a href="http://34.66.88.119/index.php/privacy-policy-cookie-restriction-mode/">Privacy and Cookie Policy</a></li><li class="nav item"><a href="http://34.66.88.119/index.php/search/term/popular/">Search Terms</a></li><li class="nav item"><a href="http://34.66.88.119/index.php/contact/">Contact Us</a></li><li class="nav item"><a href="http://34.66.88.119/index.php/catalogsearch/advanced/" data-action="advanced-search">Advanced Search</a></li></ul></div></footer><small class="copyright">
+    <span>Copyright © 2019-present ELITE DUOS, Inc. All rights reserved.</span>
+</small>
+</div>    </body>
+</html>
